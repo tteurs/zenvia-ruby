@@ -4,7 +4,7 @@ require 'uri'
 
 module Zenvia
   module Base
-    ZENVIA_URL = 'https://api-http.zenvia.com/GatewayIntegration/msgSms.do'
+    ZENVIA_URL = 'https://api-rest.zenvia.com/services/send-sms'
 
     private
 
